@@ -1,0 +1,27 @@
+{
+  "name": "15FullStack",
+  "version": "1.0.0",
+  "description": "Full Stack vue and express app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivan5/ListPost-FullStackApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivan5/ListPost-FullStackApp/issues"
+  },
+  "homepage": "https://github.com/Ivan5/ListPost-FullStackApp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8",
+    "morgan": "^1.9.1"
+  }
+}
